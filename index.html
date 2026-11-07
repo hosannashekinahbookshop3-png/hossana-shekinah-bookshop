@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hossana Shekinah Bookshop | Books, Bibles & Stationery</title>
+<meta name="description" content="Shop books, Bibles and stationery at Hossana Shekinah Bookshop, Olodi Apapa, Lagos. Browse our collection and order by WhatsApp or bank transfer.">
+<meta name="theme-color" content="#102c50">
+<meta property="og:title" content="Hossana Shekinah Bookshop">
+<meta property="og:description" content="Books that inform, inspire and transform. Shop online with nationwide delivery.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://hossanashekinahbookshop.pages.dev/">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BookStore","name":"Hossana Shekinah Bookshop","telephone":"+2349126634340","email":"hosannashekinahbookshop3@gmail.com","address":{"@type":"PostalAddress","streetAddress":"3, Ojora By Boundary Roundabout, Olodi Apapa","addressLocality":"Lagos","addressCountry":"NG"},"openingHours":"Mo-Sa 07:00-19:00"}
+</script>
+</head>
+<body>
+<div class="topline">BOOKS • BIBLES • STATIONERY <span>Nationwide delivery available</span></div>
+<header class="header">
+  <a class="brand" href="#"><span class="monogram">HS</span><span><b>HOSSANA SHEKINAH</b><small>BOOKSHOP</small></span></a>
+  <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <button class="cart-trigger" id="openCart">Bag <span id="cartCount">0</span></button>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">THE HOME OF GREAT READS</p>
+    <h1>Find the books<br><em>that move you forward.</em></h1>
+    <p class="hero-text">Discover books for personal growth, business, leadership, faith and everyday learning — thoughtfully selected for readers who value knowledge.</p>
+    <a class="button gold" href="#shop">EXPLORE THE BOOKS <span>↗</span></a>
+    <div class="hero-note">Retail & wholesale enquiries welcome</div>
+  </div>
+  <div class="hero-art" aria-label="Decorative arrangement of books">
+    <div class="book-stack stack-one"><span>THE POWER<br>OF KNOWLEDGE</span></div>
+    <div class="book-stack stack-two"><span>GROW<br>WITH PURPOSE</span></div>
+    <div class="book-stack stack-three"><span>READ. LEARN.<br>LEAD.</span></div>
+    <div class="seal">EST.<br><b>HS</b><br>BOOKSHOP</div>
+  </div>
+</section>
+<section class="trustbar"><div><b>01</b><span>Carefully selected<br>reading material</span></div><div><b>02</b><span>Convenient WhatsApp<br>ordering</span></div><div><b>03</b><span>Delivery across<br>Nigeria</span></div></section>
+<section class="shop-section" id="shop">
+  <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>Explore our shelves</h2></div><p>Find your next great read across our curated categories.</p></div>
+  <div class="filters" id="filters"></div>
+  <div class="search-row"><input id="search" type="search" placeholder="Search by book title or category..." aria-label="Search books"><span id="resultCount"></span></div>
+  <div class="product-grid" id="productGrid"><p class="loading">Loading the collection…</p></div>
+</section>
+<section class="feature">
+ <div class="feature-mark">“</div><div><p class="eyebrow">A BOOKSHOP FOR EVERY JOURNEY</p><h2>Knowledge is an investment<br>that keeps giving.</h2><p>Whether you're building a business, strengthening your faith, developing leadership skills or nurturing a love of reading, we're here to help you find the right book.</p></div>
+</section>
+<section class="about-contact" id="about">
+ <div><p class="eyebrow">ABOUT HOSSANA SHEKINAH</p><h2>Good books.<br>Greater possibilities.</h2><p>Hossana Shekinah Bookshop supplies books, Bibles and stationery to individuals, students, libraries, bookshops and resellers. We serve customers in Lagos and across Nigeria.</p><a class="text-link" href="https://wa.me/2349126634340">Speak with our team ↗</a></div>
+ <div class="contact-card" id="contact"><p class="eyebrow">VISIT OR CONTACT US</p><h3>We'd love to hear from you.</h3><p>3, Ojora By Boundary Roundabout,<br>Olodi Apapa, Lagos.</p><p><b>0912 663 4340</b><br>0902 440 2468<br>hosannashekinahbookshop3@gmail.com</p><p>Monday – Saturday<br>7:00am – 7:00pm</p><a class="button dark" href="https://wa.me/2349126634340">CHAT ON WHATSAPP</a></div>
+</section>
+</main>
+<footer><a class="brand footer-brand" href="#"><span class="monogram">HS</span><span><b>HOSSANA SHEKINAH</b><small>BOOKSHOP</small></span></a><p>© <span id="year"></span> Hossana Shekinah Bookshop. All rights reserved.</p><p>Books for knowledge, growth and purpose.</p></footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="cart-panel" id="cartPanel" aria-label="Shopping cart">
+ <div class="cart-head"><h2>Your shopping bag</h2><button id="closeCart" aria-label="Close cart">×</button></div>
+ <div id="cartItems" class="cart-items"><p class="empty">Your bag is waiting for a good read.</p></div>
+ <div class="cart-total"><span>Order total</span><b id="cartTotal">₦0</b></div>
+ <form id="checkoutForm">
+  <label>Full name<input required name="name" placeholder="Your full name"></label>
+  <label>Phone number<input required name="phone" type="tel" placeholder="Your phone number"></label>
+  <label>Delivery address<textarea required name="address" rows="2" placeholder="Full delivery address and city"></textarea></label>
+  <label>Payment preference<select name="payment"><option>Bank transfer</option><option>Discuss payment on WhatsApp</option></select></label>
+  <div class="bank-box"><small>BANK TRANSFER DETAILS</small><b>Wema Bank</b><b>Hossana Shekinah Bookshop</b><strong>7824228363</strong><small>Delivery fee depends on your location. We will confirm it with you.</small></div>
+  <button class="button gold full" type="submit">SEND ORDER VIA WHATSAPP ↗</button>
+  <p class="fineprint">Your order is not confirmed until our team replies and confirms availability, delivery fee and payment.</p>
+ </form>
+</aside>
+<script src="app.js"></script>
+</body></html>
